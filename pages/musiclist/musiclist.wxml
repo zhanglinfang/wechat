@@ -1,0 +1,14 @@
+<!--pages/musiclist/musiclist.wxml-->
+
+<view>
+
+  <view>
+    <image src='{{IP2+musicList.img}}' style="width: 240rpx; height: 160rpx;padding:10rpx"></image>
+    <text style='font-size:28rpx'>{{musicList.title}}</text>
+  </view>
+  <view wx:for='{{musicList.music}}' wx:key="{{index}}" bindtap='music' id='{{item._id}}' style='font-size:28rpx;     border-bottom:1rpx solid black;margin:20rpx;padding:10rpx'>
+    <view>{{item.music.music_name}}</view>
+    <text style='font-size:24rpx'>{{item.music.singer}}-{{item.music.album}}</text>
+  </view>
+
+</view>

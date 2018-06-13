@@ -1,0 +1,5 @@
+/* pages/countnum/countnum.wxss */
+.del{
+  width: 50%;
+  background-color: #ccc
+}

@@ -1,0 +1,9 @@
+<!--pages/countnum/countnum.wxml-->
+<button bindtap='decBtn' class='del'>-</button>
+<label>{{count}}</label>
+<button bindtap='addBtn' class='addBtn'>+</button>
+
+<text wx:for='{{arr}}' wx:key="{{index}}" wx:if='{{index>1}}' >
+   {{index}}: {{item.name}}
+</text>
+

@@ -1,0 +1,10 @@
+<!--pages/cloudmusic/cloudmusic.wxml-->
+
+<view class='music_list'>
+
+     <view wx:for='{{music_list}}' wx:key="{{index}}" style="width: 240rpx" bindtap='musicList' id='{{item._id}}'>
+         <image src='{{IP2+item.img}}' style="width: 240rpx; height: 160rpx"></image>
+         <view style='font-size:20rpx'>{{item.title}}</view>
+     </view> 
+
+</view>

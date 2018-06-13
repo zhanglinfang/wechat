@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/countnum/countnum",
+    "pages/cloudmusic/cloudmusic",
+    "pages/musiclist/musiclist",
+    "pages/music/music",
+    "pages/myphone/myphone"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
